@@ -27,7 +27,7 @@ saveHighScore = (e) => {
 
     localStorage.setItem("highScores", JSON.stringify(highScores)); // Saving high scores to local storage
 
-    window.location.assign("/highscores.html"); // Automatically going to highscore page upon saving score
+    window.location.assign("highscores.html"); // Automatically going to highscore page upon saving score
 
 //    console.log(highScores);
 //    console.log(score);
