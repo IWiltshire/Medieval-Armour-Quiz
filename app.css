@@ -1,0 +1,167 @@
+:root {
+    background-color: #e0dca3;
+    font-size: 62.5%; /* Default font size is supposedly 16px */
+}
+
+*{
+    box-sizing: border-box; /* This includes border into box size */
+    /*font-family: "'Foucault', 'Times New Roman', Times, serif";*/
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* Utilities */
+
+/*The container will be to provide padding and center stuff in the screen*/
+.container {
+    width: 100vw; /*vw = view width*/
+    height: 100vh; /*vh = view height*/
+    display: flex; /*Make a "flex box" container*/
+    justify-content: center; /*horizontal centering*/
+    align-items: center; /*vertical centering*/
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/*Children of container*/
+.container > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Buttons */
+/*The buttons are being added to an anchor tag <a>, but are made to look more like a button*/
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #333;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none; /*By default, anchor tags are underlined*/
+    color: #333;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(94, 101, 104, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  /* FORMS */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*The flex direction is what has been stacking things*/
+    align-items: center;
+  }
+
+  input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86,185,235,0.5);
+  }
+
+  input ::placeholder { /*Styling the placeholder text colour*/
+    color: #aaa
+  }
+
+  /*IMAGES*/
+  .pic {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    padding-bottom: 1rem;
+    object-fit: contain;   
+  }
+
+  /*High score screen*/
+  #final-score {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Font*/
+  .old-london {
+    font-family: 'Old London', 'Times New Roman';
+  }
+
+  /*About text*/
+  .para {
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 1rem;
+  }

@@ -1,0 +1,137 @@
+[
+    {
+        "question": "The sallet originated from which country?",
+        "choice1": "Italy",
+        "choice2": "France",
+        "choice3": "Germany",
+        "choice4": "Spain",
+        "answer": 1,
+        "picture": "sallet.jpg"
+    },
+    {
+        "question": "The mail, neck protection connected to a bascinet is called...",
+        "choice1": "A gauntlet",
+        "choice2": "An aventail",
+        "choice3": "A greave",
+        "choice4": "A spaulder",
+        "answer": 2,
+        "picture": "aventail.jpg"
+    },
+    {
+        "question": "The great bascinet emerged in which century?",
+        "choice1": "12th century",
+        "choice2": "13th century",
+        "choice3": "14th century",
+        "choice4": "15th century",
+        "answer": 4,
+        "picture": "palazzo_reproduction.jpg"
+    },
+    {
+        "question": "During the 15th century, a typical plate harness was made from which metal?",
+        "choice1": "Bronze",
+        "choice2": "Gold",
+        "choice3": "Steel",
+        "choice4": "Titanium",
+        "answer": 3,
+        "picture": "austrian.jpg"
+    },
+    {
+        "question": "What is a mail hood called?",
+        "choice1": "A helm",
+        "choice2": "A coif",
+        "choice3": "A sugarloaf",
+        "choice4": "A cervelliere",
+        "answer": 2,
+        "picture": "f10ii.jpg"
+    },
+    {
+        "question": "What sort of visor adorns this bascinet?",
+        "choice1": "Hounskull",
+        "choice2": "Dogtooth",
+        "choice3": "Moleface",
+        "choice4": "Fox-fiend",
+        "answer": 1,
+        "picture": "hounskull.jpg"
+    },
+    {
+        "question": "According to the Royal Armouries, how many surviving examples of great helms have been discovered?",
+        "choice1": "0",
+        "choice2": "20",
+        "choice3": "40",
+        "choice4": "60",
+        "answer": 2,
+        "picture": "greathelm.jpg"
+    },
+    {
+        "question": "A gambeson was typically made with linen or wool. Linen comes from what sort of plant?",
+        "choice1": "Flax (linseed)",
+        "choice2": "Oak",
+        "choice3": "Hemp",
+        "choice4": "Nettle",
+        "answer": 1,
+        "picture": "Morgan_Bible_10r_detail.jpg"
+    },
+    {
+        "question": "In England, the surcoat started to lose popularity in the...",
+        "choice1": "12th century",
+        "choice2": "13th century",
+        "choice3": "14th century",
+        "choice4": "15th century",
+        "answer": 4,
+        "picture": "surcoat.jpg"
+    },
+    {
+        "question": "15th century Italian armour is referred to by what colour?",
+        "choice1": "White",
+        "choice2": "Black",
+        "choice3": "Silver",
+        "choice4": "Green",
+        "answer": 1,
+        "picture": "walters.jpg"
+    },
+    {
+        "question": "What are the individual rings making up a piece of mail called?",
+        "choice1": "Hula hoops",
+        "choice2": "Washers",
+        "choice3": "Bolts",
+        "choice4": "Links",
+        "answer": 4,
+        "picture": "mail.jpg"
+    },
+    {
+        "question": "The articulated plates of a sabaton are called...",
+        "choice1": "Scales",
+        "choice2": "Lames",
+        "choice3": "Toes",
+        "choice4": "Caterpillars",
+        "answer": 2,
+        "picture": "sabaton.jpg"
+    },
+    {
+        "question": "This ornate set of armour was made for...",
+        "choice1": "Saladin",
+        "choice2": "George VI",
+        "choice3": "Henry II of France",
+        "choice4": "Macbeth",
+        "answer": 3,
+        "picture": "henryii.jpg"
+    },
+    {
+        "question": "On the right of this image, a man can be seen climbing a ladder. What sort of helmet is he wearing?",
+        "choice1": "A sallet",
+        "choice2": "A bascinet",
+        "choice3": "A kettle helm",
+        "choice4": "A great helm",
+        "answer": 3,
+        "picture": "f40.jpg"
+    },
+    {
+        "question": "Frogmouth helms were developed for jousting. In order to protect their wearers, they limit motion of the...",
+        "choice1": "Neck",
+        "choice2": "Eyes",
+        "choice3": "Ears",
+        "choice4": "Nose",
+        "answer": 1,
+        "picture": "frogmouth.jpg"
+    }
+]

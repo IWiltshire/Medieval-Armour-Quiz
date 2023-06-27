@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/old-london" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/old-london');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id = "hud">
+                <div id="hud-item">
+                    <p class="hud-prefix old-london">
+                        Question
+                    </p>
+                    <h1 class="hud-main-text old-london" id="questionCounter">
+                       <!--This gets filled in dynamically by the game.js file-->
+                    </h1>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix old-london">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text old-london" id="score">
+                        0 <!--This gets updated dynamically by the game.js file-->
+                    </h1>
+                </div>
+            </div>
+
+
+            <h2 id="question">Dummy question</h2>
+            <img class="pic flex-center" id="pictures" src=""></img>
+            <div class="flex-row">
+                <div class="choice-container"> <!--Class for answer choices-->
+                    <p class="choice-prefix old-london" data-number="1">A</p>
+                    <p class="choice-text" data-number="1">Choice 1</p> <!--data-number is a custom tag we make-->
+                </div>
+                <div class="choice-container"> <!--Class for answer choices-->
+                    <p class="choice-prefix old-london">B</p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="choice-container"> <!--Class for answer choices-->
+                    <p class="choice-prefix old-london">C</p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+                </div>
+                <div class="choice-container"> <!--Class for answer choices-->
+                    <p class="choice-prefix old-london">D</p>
+                    <p class="choice-text" data-number="4">Choice 4</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

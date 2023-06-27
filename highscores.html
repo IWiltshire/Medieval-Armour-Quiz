@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Scores</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="highscores.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/old-london" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/old-london');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id=highScores class="flex-center flex-column">
+            <h1 class="old-london" id="finalScores">High Scores</h1>
+            <ul id="highScoresList"></ul> <!--ul tag is for bullet list-->            
+            <h1 id="no-score" class="hidden">No scores saved</h1>
+            <div class="flex-row">
+            <a class="btn old-london" href="/game.html">Play again</a>
+            <a class="btn old-london" href="/">Go Home</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="highscores.js"></script>    
+</body>
+</html>
